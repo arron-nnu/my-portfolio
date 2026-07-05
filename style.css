@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(black,rgb(243, 241, 235));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color:green;
+    font-family:"press Start 2P";
+    text-align:center;
+    text-shadow: 5px 5px 5px darkgreen; 
+    font-size:50px;
+
+}
+p{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-family:""sans-serif; 
+    font-size:20px;
+    border-style:outset;
+    border-color:goldenrod;
+    border-width:5px;
+    padding: 10px;
+}
+#p1{
+    font-style:italic ;
+}
+#div1{
+    border:10px solid;
+    border-color: gold;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: white;
+
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px
+}
+#div2{
+    border:10px solid;
+    border-color: gold;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: black;
+    color:white;
+
+     padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.box3{
+    width:100px;
+    height:100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align:center;
+    background:tomato;
+
+    float:both
+}
+
+
