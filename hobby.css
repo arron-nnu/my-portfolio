@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-size:13px;
+    background-image:linear-gradient(blue, rgb(49, 72, 105));
+}
+a{
+    text-decoration: none;
+
+}
+header{
+    padding: 10px 0;
+}
+nav{
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:linear-gradient(rgb(127, 147, 153), rgb(33, 48, 158));
+    z-index: 99;
+    margin-left: 100;
+}
+.nav_content{
+    max-width: var(--max-width);
+    padding: 1.5rem 1rem;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+nav .logo a {
+    font-family: press Start 2P;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:rgb(67, 152, 227);
+    text-decoration: 0.3; 
+}
+nav .logo a:hover{
+    color:rgb(88, 120, 50);
+}
+ul{
+    display:flex;
+    list-style:none;
+    align-items: center;
+    gap: 1rem;
+    transition:left 0.3s;
+    top:85px;
+}
+ul li{
+    margin-left: 15px;
+}
+ul li a {
+    padding:0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(29, 29, 29);
+    transition: color 0.3;
+}
+ul li a:hover{
+    color:black;
+}
+.section{
+    background-color: rgb(221, 204, 14);
+}
+.container{
+    display: flex;
+    top:150px;
+    height:45px;
+    width: 700px;
+    gap:10px;
+    position:fixed;
+    bottom:10%;
+    left:27%
+}
+.card{
+    flex:1;
+    border-radius: 20px;
+    cursor: pointer;
+    background: black;
+    filter: grayscale(10%);
+    transition: flex .7s cubic-bezier(.25, 1, .5, 1);
+}
+.box1{
+    background:black center/cover;
+}
+.box2 {
+    background:black center/cover;
+}
+.box3 {
+    background:black center/cover;
+}
+.card:hover{
+    flex: 4;
+    height: 600px;
+}
+.card1 {
+    color:rgb(0, 237, 0);
+    position:static;
+    text-align:center;
+    border-style:outset;
+    border-color:gold;
+    border-width:5px;
+    border-radius:10px;
+    padding: 5px;;
+    flex:1;
+    filter: grayscale(80%);
+    transition: flex .7s cubic-bezier(.25, 1, .5, 1);
+}
+.card1:hover {
+    flex: 4;
+    filter:grayscale(0%);
+}

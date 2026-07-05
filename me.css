@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
+body{
+    font-family: "Press Start 2P";
+    font-size:13px;
+    background-image:linear-gradient(blue, rgb(49, 72, 105));
+}
+a{
+    text-decoration: none;
+
+}
+header{
+    padding: 10px 0;
+}
+nav{
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:linear-gradient(rgb(127, 147, 153), rgb(33, 48, 158));
+    z-index: 99;
+    margin-left: 100;
+}
+.nav_content{
+    max-width: var(--max-width);
+    padding: 1.5rem 1rem;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+nav .logo a {
+    font-family: press Start 2P;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:rgb(67, 152, 227);
+    text-decoration: 0.3; 
+}
+nav .logo a:hover{
+    color:rgb(88, 120, 50);
+}
+ul{
+    display:flex;
+    list-style:none;
+    align-items: center;
+    gap: 1rem;
+    transition:left 0.3s;
+    top:85px;
+}
+ul li{
+    margin-left: 15px;
+}
+ul li a {
+    padding:0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(29, 29, 29);
+    transition: color 0.3;
+}
+ul li a:hover{
+    color:black;
+}
+.section{
+    background-color: rgb(221, 204, 14);}
+
+.box{
+    font-size:50px;
+    border: inset;
+    border-width:10px;
+    position:fixed;
+    bottom: 300px;
+    left:600px;
+
+}
+.text{
+
+    border-style:none;
+    border-color:rgb(14, 102, 146);
+
+    display: flex;
+    height: 550px;
+    width: 800px;
+    right:200px;
+    left: 40px;
+    gap:10px;
+    position:fixed;
+    bottom:10%;
+}
+.text h2{
+    text-align:right;
+
+    padding:10px;
+    color:white;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+}
+html, .text {
+    overflow: hidden; 
+    overflow-y: hidden; 
+}
+img{
+    height:650px;
+    width:500px;
+    border-radius: 90px;
+}
+.img{
+    border-style:inset;
+    border-width:10px;
+    border-color:green;
+    border-radius:100px;
+
+    position:fixed;
+    right: 70px;
+    top:100px;
+
+}
+
